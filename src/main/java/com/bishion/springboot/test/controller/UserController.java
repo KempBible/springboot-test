@@ -16,6 +16,7 @@ import java.util.List;
 
 @RestController
 public class UserController {
+
     @Value("${config.username}")
     private String defaultUser;
     @Autowired
